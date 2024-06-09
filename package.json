@@ -1,0 +1,26 @@
+{
+  "name": "antgspakr-com",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "postcss src/styles/main.css -o src/styles/main.post.css",
+    "watch:scss": "sass --watch src/styles/scss/main.scss:src/styles/main.css",
+    "dev": "astro dev",
+    "build": "astro build",
+    "start": "astro preview"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0"
+  },
+  "dependencies": {
+    "astro": "^4.10.1"
+  }
+}
