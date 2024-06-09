@@ -1,0 +1,110 @@
+/* Reset the margin, padding, and border of all elements */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove default body padding and margin */
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+/* Remove list styles on ul, ol elements with a class of list */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Set a consistent background and color */
+html,
+body {
+    background: #fff;
+    color: #000;
+}
+
+/* Remove default border and background on form elements */
+input,
+button,
+textarea,
+select {
+    border: none;
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    line-height: inherit;
+}
+
+/* Ensure a consistent border-box model */
+html {
+    box-sizing: border-box;
+}
+
+/* Remove default table styling */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Remove default text decoration and color for links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default styles on image tags */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Remove default styles on figures */
+figure {
+    margin: 0;
+}
+
+/* Remove default styles on headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+/* Remove default styling for address */
+address {
+    font-style: normal;
+}
+
+/* Remove default styling for blockquote */
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: '';
+    content: none;
+}
+
+/* Reset specific form elements */
+fieldset {
+    border: none;
+}
+
+/* Ensure textarea resize is controlled */
+textarea {
+    resize: vertical;
+}
